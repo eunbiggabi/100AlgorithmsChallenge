@@ -22,9 +22,11 @@ function addTwoDigits(n: any): number {
     //     sum += parseInt(nums[i])
     // }
 
-    // return sum;
+
+    nums.forEach((elem: string) => sum += parseInt(elem))
+    return sum;
    
-    return nums.reduce((a: string, b: string) =>  parseInt(a) + parseInt(b))
+    // return nums.reduce((a: string, b: string) =>  parseInt(a) + parseInt(b))
 
 }
 
