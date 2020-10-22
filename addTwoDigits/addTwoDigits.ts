@@ -16,7 +16,13 @@ function addTwoDigits(n: any): number {
     // 문제를 잘못이해함 완전히 틀렸음 ㅋㅋ
 
     const nums = n.toString().split("");
+    let sum = 0;
 
+    // for(let i = 0; i < nums.length; i++) {
+    //     sum += parseInt(nums[i])
+    // }
+
+    // return sum;
    
     return nums.reduce((a: string, b: string) =>  parseInt(a) + parseInt(b))
 
