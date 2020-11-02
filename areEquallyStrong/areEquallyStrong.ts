@@ -2,7 +2,7 @@
 
 // }
 
-const areEquallyStrong = (yourLeft: number, yourRight: number, friendsLeft: number, friendsRight: number) =>  {
+const areEquallyStrong = (yourLeft: number, yourRight: number, friendsLeft: number, friendsRight: number): boolean =>  {
     const yourArm = yourLeft + yourRight;
     const friemdsArm = friendsLeft + friendsRight;
 
